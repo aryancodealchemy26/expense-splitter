@@ -2,11 +2,11 @@ package models;
 import java.util.List;
 
 public class Expense {
-    public String eid;    // expense id
-    public String desc;   // description
-    public double amt;    // amount
-    public User paidBy;   // who paid
-    public List<User> pList; // participants
+    public String eid;    
+    public String desc;   
+    public double amt;    
+    public User paidBy;   
+    public List<User> pList; 
 
     public Expense(String eid, String desc, double amt, User paidBy, List<User> pList) {
         this.eid = eid;
